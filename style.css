@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+    width: 100%;
+    padding: 0px 20px;
+    background-color: red;
+    padding: 10px;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+   
+}
+header ul li{
+    padding-left: 10px;
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.sticky{
+    background-color: white;
+    
+}
+
+.sticky ul li a{
+    color:red;
+}
+.sticky{
+    background-image: url("images/logo.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+}
